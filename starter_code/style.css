@@ -1,0 +1,120 @@
+
+body{
+    border-top: 10px solid black;
+   font-family: sans-serif;
+}
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+footer{
+    border-bottom: 10px solid black;
+}
+.nav-part{
+    text-align: center;
+    margin-top:40px;
+    font-size: 30px;
+}
+.nav-part strong{
+    font-style: italic;
+}
+
+.nav-part a{
+    color:black;
+   
+}
+
+.about-me img{
+    float:right;
+    border: 2px solid black;
+    padding: 5px;
+    width: 200px;
+    height: 200xp;
+    margin-top:15px;
+}
+.about-me{
+     height:400px;
+     width:80%;
+     margin: 0 auto;
+ }
+.about-me h3 {
+     font-size: 40px;
+ }
+.about-me h2 {
+    font-size: 50px;
+}
+.about-me p {
+     margin-bottom: 20px;
+     font-size: 28px;
+ }
+footer nav {
+    text-align: center;
+    font-size:28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+footer nav a{
+    color:black;
+    padding-top: 30px;
+}
+
+.list-item{
+    font-size: 25px;
+    font-weight:bold;
+    font-style: italic;
+}
+ul{
+    list-style-type: square;
+    padding: 20px;
+    margin :auto;
+}
+.li{
+    padding : 5px;
+    margin:5px;
+}
+.date{
+    font-size: 10px;
+}
+.middle{
+    font-size: 18px;
+}
+.list-images{
+    border: 2px solid black;
+    padding: 13px;
+    width:1000px;
+    margin : 15 px;
+}
+
+section .edu{
+    height:400px;
+    width:80%;
+    
+}
+
+.image-box{
+    margin : 25px;
+}
+
+.port-main{
+    height:3400px;
+    width:80%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+.port-main h3 {
+    font-size: 40px;
+}
+.port-main h2 {
+   font-size: 50px;
+}
+.port-main p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
